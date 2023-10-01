@@ -244,6 +244,7 @@ nav {
   }
   .header_wrapper1 a{
     color: white;
+    color: black;
   }
   .isCurrent {
     font-weight: bold;
@@ -339,6 +340,10 @@ nav {
     overflow-x: hidden;
 }
 
+.banner_wrapper p,h1{
+    color:black;
+}
+
 /* 4 About */
 .about_wrapper{
     padding-top:0rem;
@@ -346,6 +351,7 @@ nav {
 .about_wrapper .p1{
     /* text-indent:1.3rem; */
     text-align:justify;
+    color:black;
 }
 .about_wrapper .single-logo-item {
     width: 100%;

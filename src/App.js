@@ -33,9 +33,9 @@ function App() {
   return (
     <div>
      <header className="header_wrapper1">
-      <Navbar bg="black" expand="lg" variant="dark" fixed='top' className='navbar'>
+      <Navbar bg="white" expand="lg" variant="dark" fixed='top' className='navbar'>
       <Container>
-        <Navbar.Brand href="#home" className='text-primary brand'><h1>APP NAME</h1></Navbar.Brand>
+        <Navbar.Brand href="#home" className='text-primary brand'><h1 style={{color:"black"}}>APP NAME</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu1' onClick={handleClick}/>
         <Navbar.Collapse id="basic-navbar-nav" className="navCollapse1 justify-content-end">
           <Nav className="menu-navbar-nav1">
@@ -55,7 +55,7 @@ function App() {
     </header>
 
 
-    <section id="home" className="banner_wrapper bg-black">
+    <section id="home" className="banner_wrapper bg-white">
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-7 order-lg-1 order-2 banner-content">
@@ -77,12 +77,12 @@ function App() {
 
 
     {/* My About section start */}
-    <section id="services" className="about_wrapper bg-black">
+    <section id="services" className="about_wrapper bg-white">
         <div className="container">
             <div className="row">
                 <div className="col-sm-12 text-left">
                     <br /><br /><br />
-                    <h2 className="bg-secondary text-center">Services That We Provide</h2>
+                    <h2 className="text-center text-black">Services That We Provide</h2>
                     <p className="p1">
                       1. hksjhfkjshgjks <br></br>
                       2. hksjhfkjshgjks <br></br>
@@ -256,28 +256,28 @@ function App() {
   
 
     {/*Footer section*/}
-    <section id="contact" className="contact_wrapper mt-md-0 bg-black">
+    <section id="contact" className="contact_wrapper mt-md-0 bg-white">
         <div className="container mt-5">
             <div className="row align-items-center justify-content-center">
                 <div className="col-12 text-center">
                     <div className="footer-logo mb-3 mb-md-0">
-                        <h2 className="bg-secondary">Contact Us</h2>
-                        <p>Location : abcdefghi, Dhaka, Bangladesh</p>
-                        <p>Gmail ID : abcd1234@gmail.com</p>
-                        <p>Mobile : +8801747000xyz</p>
+                        <h2 className="text-black">Contact Us</h2>
+                        <p className="text-black">Location : abcdefghi, Dhaka, Bangladesh</p>
+                        <p className="text-black">Gmail ID : abcd1234@gmail.com</p>
+                        <p className="text-black">Mobile : +8801747000xyz</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="appointmentorserial" className="contact_wrapper mt-md-0 bg-black">
+    <section id="appointmentorserial" className="contact_wrapper mt-md-0 bg-white">
         <div className="container mt-5">
             <div className="row align-items-center justify-content-center">
                 <div className="col-12 text-center">
                     <div className="footer-logo mb-3 mb-md-0">
-                        <h2 className="bg-secondary">Appointment or Serial</h2>
-                        <p>Something needs to be shown here</p>
+                        <h2 className="text-black">Appointment or Serial</h2>
+                        <p className="text-black">Something needs to be shown here</p>
                     </div>
                 </div>
             </div>
